@@ -18,7 +18,7 @@ def sendReact(cookie, post, react):
 		'Content-Type': "application/json",
 		'Cookie': cookie
   }
-	res = requests.post(link, data=pay, headers=head)
+	res = requests.post(link, json=pay, headers=head)
 	return True
 
 btn = st.button("Submit", type='primary')
