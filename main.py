@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.header(":blue[Facebook React]", divider='rainbow')
+st.header(":blue[Krazone Facebook React]", divider='rainbow')
 
 cookie = st.text_area("Cookie")
 post = st.text_input("Link")
